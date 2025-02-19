@@ -1,0 +1,29 @@
+{
+    "certificates":[
+        {
+            "issuedby":"Cisco",
+            "issuedon":"March 2024",
+            "type":"embed",
+            "title":"Cisco Certified Network Associate",
+            "thumbnail":"./certifications/ccna.png",
+            "link":"./certifications/CCNA.pdf"
+        },
+        {
+            "issuedby":"VMware (SpringPeople)",
+            "issuedon":"Sep 2024",
+            "type":"embed",
+            "title":"VMware Certified Professional",
+            "thumbnail":"./certifications/vmwarepic.jpg",
+            "link":"./certifications/vmware.pdf"
+        },
+        
+        {
+            "issuedby":"HackerRank",
+            "issuedon":"Aug 2021",
+            "type":"embed",
+            "title":"RBDMS (SQL)",
+            "thumbnail":"https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-part-azure-sql-database-with-azure-active-directory-17.png",
+            "link":"./certifications/DBMS.pdf"
+        }
+    ]
+}

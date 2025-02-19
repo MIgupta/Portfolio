@@ -1,0 +1,25 @@
+{
+    "skillset":[
+        {   
+            "category": "Programming",
+            "skills":["C/C++", "Python"]
+        },
+        {
+            "category": "Web Dev",
+            "skills":["HTML", "CSS", "Javascript", "React"]
+        },
+        {
+            "category": "Databases",
+            "skills":["MYSQL", "PosgresSql", "MongoDB"]
+        },
+        {
+            "category": "Frameworks",
+            "skills":["Django"]
+        },
+        {
+            "category": "Devops",
+            "skills":["Docker","RedHat Linux", "Git", "VMWare"]
+        }
+        
+    ]
+}
