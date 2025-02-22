@@ -1,5 +1,37 @@
 var body = document.getElementById("body");
 
+// var profile = () =>{
+//   var a = document.createElement()
+// };
+// const username = "gpta_me"; 
+
+// const query = {
+//   query: `{
+//     matchedUser(username: "${username}") {
+//       username
+//       submitStats: submitStatsGlobal {
+//         acSubmissionNum {
+//           difficulty
+//           count
+//           submissions
+//         }
+//       }
+//     }
+//   }`
+// };
+
+// fetch("https://cors-anywhere.herokuapp.com/https://leetcode.com/graphql", {
+//   method: "POST",
+//   headers: {
+//     "Content-Type": "application/json"
+//   },
+//   body: JSON.stringify(query)
+// })
+//   .then(response => response.json())
+//   .then(data => console.log(data))
+//   .catch(error => console.error("Error:", error));
+
+
 var createLink = (link, text, target = "_self") => {
   var a = document.createElement("a");
   a.href = link;
@@ -671,6 +703,9 @@ const certificates = createCertificate();
 body.appendChild(certificates);
 
 const contact = createContact();
+body.appendChild(contact);
+
+const profile = createContact();
 body.appendChild(contact);
 
 window.scrollY = "3000px";
