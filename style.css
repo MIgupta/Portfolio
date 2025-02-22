@@ -6,6 +6,7 @@
     font-family: "Poppins", sans-serif;
     /* outline:1px solid red; */
 }
+
 html{
     scroll-behavior:smooth;
     /* padding-right: 0; */
@@ -21,15 +22,20 @@ html{
 
     --max-width:1280px;
 }
-.nav-wrap{
-    width:100%;
-    background:var(--secondary-dark);
+
+.nav-wrap {
+    width: 100%;
+    background: var(--secondary-dark);
     border-bottom: 1px solid var(--primary-dark);
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Ensure it stays at the top */
+    left: 0;
+    z-index: 1000; /* Keeps navbar above other elements */
 }
-.nav{
-    position: relative;
-    margin:0 auto;
-    padding:1rem 4rem;
+
+.nav {
+    margin: 0 auto;
+    padding: 1rem 4rem;
     max-width: var(--max-width);
     display: flex;
     justify-content: space-between;
@@ -38,6 +44,7 @@ html{
     .nav{
         max-width: 100%;
         padding:1rem;
+        /* position: fixed; */
     }
 }
 .logo{
